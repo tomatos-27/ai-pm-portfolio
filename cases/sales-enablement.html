@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="高校数据报告销售赋能与客户展示中心 V0.2 Case Study：问题、非 AI 决策、双视图信息架构与已完成 Demo。">
+  <title>销售赋能与客户展示中心｜Case Study｜〔你的姓名〕</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">〔你的姓名〕<span class="brand-mark" aria-hidden="true">/</span> Portfolio</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="../index.html#projects">精选项目</a>
+        <a href="../index.html#experience">经历</a>
+        <a href="../index.html#judgment">产品判断</a>
+        <a href="../index.html#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="case-hero section">
+      <div class="container case-hero-inner">
+        <a class="back-link" href="../index.html#projects"><span aria-hidden="true">←</span> 返回精选项目</a>
+        <div class="case-meta"><span class="status status-complete">Completed</span><span>真实业务项目 · V0.2</span><span>Case Study 01</span></div>
+        <h1>高校数据报告销售赋能<br>与客户展示中心</h1>
+        <p class="case-deck">让分散的销售材料回到同一产品数据源，同时支持客户展示与销售内部使用。这个项目刻意没有加入 AI，因为问题本身不需要 AI。</p>
+        <div class="case-facts" aria-label="项目概要">
+          <div><span>问题</span><strong>材料分散、难找、更新成本高</strong></div>
+          <div><span>核心方案</span><strong>Single Source of Truth · 双视图</strong></div>
+          <div><span>当前成果</span><strong>可运行 HTML / CSS / JS Demo</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container case-layout">
+      <nav class="case-toc" aria-label="本页目录">
+        <p>ON THIS PAGE</p>
+        <a href="#problem">01 · Problem</a>
+        <a href="#why-not-ai">02 · Why not AI</a>
+        <a href="#decision">03 · Product Decision</a>
+        <a href="#architecture">04 · Information Architecture</a>
+        <a href="#mvp">05 · MVP / V0.2</a>
+        <a href="#evidence">06 · Evidence</a>
+        <a href="#learned">07 · What I learned</a>
+      </nav>
+
+      <div class="case-content">
+        <section class="case-section" id="problem" aria-labelledby="problem-title">
+          <p class="section-kicker">01 / PROBLEM</p>
+          <h2 id="problem-title">销售材料分散，使用与维护都变得昂贵</h2>
+          <p>高校数据报告相关材料分布在不同位置，销售需要花时间寻找合适内容；当产品信息变化时，多份材料也带来重复更新与版本不一致的风险。</p>
+          <div class="insight-box"><strong>要解决的核心问题</strong><p>让销售更容易找到和使用材料，同时让面向客户的展示内容保持一致、便于维护。</p></div>
+        </section>
+
+        <section class="case-section" id="why-not-ai" aria-labelledby="why-title">
+          <p class="section-kicker">02 / WHY NOT AI</p>
+          <h2 id="why-title">先解决信息组织问题</h2>
+          <p>已识别的痛点是材料的组织、检索与更新成本。以当前问题定义来看，统一内容来源与清晰的展示结构，比引入 AI 更直接。因此 V0.2 刻意没有加入 AI 功能。</p>
+          <p class="case-emphasis">技术选择服从问题本身，而不是让 AI 成为方案的前提。</p>
+        </section>
+
+        <section class="case-section" id="decision" aria-labelledby="decision-title">
+          <p class="section-kicker">03 / PRODUCT DECISION</p>
+          <h2 id="decision-title">一个来源，服务两种使用场景</h2>
+          <p>方案采用 Single Source of Truth：同一产品数据源支持客户展示视图与销售内部视图。两个视图面向不同使用情境，但底层信息保持同源，减少内容重复维护。</p>
+          <ul class="case-bullets">
+            <li><strong>客户展示视图：</strong>面向客户沟通，承载对外展示。</li>
+            <li><strong>销售内部视图：</strong>面向销售使用，帮助查找和组织材料。</li>
+            <li><strong>统一内容来源：</strong>为两类视图提供一致的产品信息基础。</li>
+          </ul>
+        </section>
+
+        <section class="case-section" id="architecture" aria-labelledby="architecture-title">
+          <p class="section-kicker">04 / INFORMATION ARCHITECTURE</p>
+          <h2 id="architecture-title">信息架构原则</h2>
+          <p>V0.2 的结构重点是将内容来源与使用视图区分：先维护一份产品信息，再按受众呈现。</p>
+          <div class="architecture-diagram" role="img" aria-label="同一产品数据源分别支持客户展示视图和销售内部视图">
+            <div class="diagram-source"><span>CONTENT SOURCE</span><strong>统一产品数据源</strong></div>
+            <div class="diagram-branch" aria-hidden="true"></div>
+            <div class="diagram-views"><div><span>VIEW 01</span><strong>客户展示视图</strong></div><div><span>VIEW 02</span><strong>销售内部视图</strong></div></div>
+          </div>
+        </section>
+
+        <section class="case-section" id="mvp" aria-labelledby="mvp-title">
+          <p class="section-kicker">05 / MVP → V0.2</p>
+          <h2 id="mvp-title">以可运行 Demo 验证方案</h2>
+          <div class="two-column-facts">
+            <div><span class="mini-label">方案范围</span><h3>同源内容，双视图使用</h3><p>围绕销售找材料、客户看内容、产品信息更新三个关键场景组织体验。</p></div>
+            <div><span class="mini-label">已完成的 V0.2</span><h3>可运行前端 Demo</h3><p>已经完成 HTML / CSS / JS Demo。更细的版本迭代记录可在后续补充证据时完善。</p></div>
+          </div>
+        </section>
+
+        <section class="case-section" id="evidence" aria-labelledby="evidence-title">
+          <p class="section-kicker">06 / EVIDENCE</p>
+          <h2 id="evidence-title">已完成的成果与待接入证据</h2>
+          <p>目前已确认存在可运行的 HTML / CSS / JS Demo。当前 Portfolio 目录尚未包含该 Demo 或外部地址，因此先记录证据状态；拿到真实链接后再开放入口。</p>
+          <div class="evidence-grid">
+            <div><strong>Live Demo</strong><span>已完成 · 链接待接入</span></div>
+            <div><strong>GitHub</strong><span>地址待提供</span></div>
+            <div><strong>项目截图</strong><span>素材待提供</span></div>
+          </div>
+        </section>
+
+        <section class="case-section" id="learned" aria-labelledby="learned-title">
+          <p class="section-kicker">07 / WHAT I LEARNED</p>
+          <h2 id="learned-title">产品判断先于技术选择</h2>
+          <p>这个项目的关键判断是先处理真实的信息管理问题：让内容同源、让不同受众各取所需。是否加入 AI，需要由明确的增量价值来决定。</p>
+          <a class="text-link" href="../index.html#projects">返回精选项目 <span aria-hidden="true">↗</span></a>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>〔你的姓名〕 · AI 产品经理 Portfolio</span><span>Case Study · V0.2</span></div></footer>
+</body>
+</html>
